@@ -1,10 +1,5 @@
 #!/usr/bin/python3
 
-import os
-from base64 import * 
-import time 
-from haslib import * 
-from Crypto.Cipher.Padding import pad, unpad 
 
 def encrypt(cle,txt):
   sel = os.urandom(16)
