@@ -34,3 +34,4 @@ while True:
        cles = os.urandom(32)
        txt = input("Entrez votre texte: ")
        encrypted_text, key, iv = encrypt(cles, txt)
+       print("Texte chiffrée: ", encrypted_text)
