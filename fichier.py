@@ -43,6 +43,7 @@ while True:
          encrypted_text = input("Entrez le texte chiffré: ")
          key = bytes.fromhex(input("Entrez la clé de chiffrement (en hexadécimal): "))
          iv = bytes.fromhex(input("Entrez IV (en hexadécimal): "))
+         decrypted_text = decrypt(key, encrypted_text, iv)
     
     
     
