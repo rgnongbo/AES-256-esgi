@@ -3,6 +3,7 @@
 import os
 import time
 from base64 import *
+from hashlib import *
 
 def encrypt(cle,txt):
   sel = os.urandom(16)
