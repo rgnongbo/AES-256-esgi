@@ -16,3 +16,5 @@ def encrypt(cle,txt):
   crypt_bytes = cipher.encrypt(pad(txt.encode(), AES.block_size))
   encrypted_text = b64encode(crypt_bytes).decode('utf-8)
   return encrypted_text, key.hex(), iv.hex()
+
+def decrypt(key, encrypted_text, iv):
