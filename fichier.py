@@ -23,3 +23,9 @@ def decrypt(key, encrypted_text, iv):
     decrypted_bytes = cipher.decrypt(encrypted_bytes)
     decrypted_text = unpad(decrypted_bytes, AES.block_size).decode('utf-8')
     return decrypted_text
+    
+while True:
+    print("1. Chiffrer")
+    print("2. Déchiffrer")
+    print("3. Quitter")
+    choice = input("Choisissez une option: ")
