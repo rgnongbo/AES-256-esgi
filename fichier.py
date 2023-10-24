@@ -40,3 +40,10 @@ while True:
        
        
     elif choice == '2':
+         encrypted_text = input("Entrez le texte chiffré: ")
+    
+    
+    
+    
+    
+    
