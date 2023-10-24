@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+import time
 from base64 import *
 
 def encrypt(cle,txt):
