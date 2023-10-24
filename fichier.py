@@ -32,3 +32,4 @@ while True:
     
     if choice == '1':
        cles = os.urandom(32)
+       txt = input("Entrez votre texte: ")
