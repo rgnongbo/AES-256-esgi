@@ -37,3 +37,6 @@ while True:
        print("Texte chiffrée: ", encrypted_text)
        print("Clé de chiffrement: ", key)
        print("IV de chiffrement: ", iv)
+       
+       
+    elif choice == '2':
