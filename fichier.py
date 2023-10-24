@@ -29,3 +29,6 @@ while True:
     print("2. Déchiffrer")
     print("3. Quitter")
     choice = input("Choisissez une option: ")
+    
+    if choice == '1':
+        
