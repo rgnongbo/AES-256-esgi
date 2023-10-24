@@ -18,3 +18,4 @@ def encrypt(cle,txt):
   return encrypted_text, key.hex(), iv.hex()
 
 def decrypt(key, encrypted_text, iv):
+    cipher = AES.new(key, AES.MODE_GCM, iv)
