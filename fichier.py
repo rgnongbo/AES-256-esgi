@@ -42,6 +42,7 @@ while True:
     elif choice == '2':
          encrypted_text = input("Entrez le texte chiffré: ")
          key = bytes.fromhex(input("Entrez la clé de chiffrement (en hexadécimal): "))
+         iv = bytes.fromhex(input("Entrez IV (en hexadécimal): "))
     
     
     
