@@ -31,4 +31,4 @@ while True:
     choice = input("Choisissez une option: ")
     
     if choice == '1':
-        
+       cles = os.urandom(32)
