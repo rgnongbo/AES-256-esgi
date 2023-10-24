@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+from base64 import *
 
 def encrypt(cle,txt):
   sel = os.urandom(16)
