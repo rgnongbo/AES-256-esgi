@@ -35,3 +35,5 @@ while True:
        txt = input("Entrez votre texte: ")
        encrypted_text, key, iv = encrypt(cles, txt)
        print("Texte chiffrée: ", encrypted_text)
+       print("Clé de chiffrement: ", key)
+       print("IV de chiffrement: ", iv)
