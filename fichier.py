@@ -5,6 +5,7 @@ import time
 from base64 import *
 from hashlib import *
 from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
 
 def encrypt(cle,txt):
   sel = os.urandom(16)
