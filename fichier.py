@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+import os
 
 def encrypt(cle,txt):
   sel = os.urandom(16)
