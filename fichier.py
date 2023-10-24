@@ -46,6 +46,13 @@ while True:
          decrypted_text = decrypt(key, encrypted_text, iv)
          print("Texte déchiffré:", decrypted_text)
     
+    elif choice == '3':
+        break
+    else:
+        print("Option non valide. Veuillez réessayer.")
+    
+    time.sleep(1)
+    
     
     
     
