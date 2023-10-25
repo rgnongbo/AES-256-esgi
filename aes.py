@@ -24,6 +24,8 @@ def decrypt(key, encrypted_text, iv):
     decrypted_text = unpad(decrypted_bytes, AES.block_size).decode('utf-8')
     return decrypted_text
 
+#################################### Ajout de 3 options pour le choix de l'utilisateur ####################################
+
 while True:
     print("1. Chiffrer")
     print("2. Déchiffrer")
@@ -51,5 +53,7 @@ while True:
         break
     else:
         print("Option non valide. Veuillez réessayer.")
+        
+#########################################################################################################################
 
     time.sleep(1)
