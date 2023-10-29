@@ -1,15 +1,18 @@
-Hotfix/librairie_error
+
 # Librairie_error
+Hotfix/librairie_error
 
 Librairie manquantante (resolu)
 
-Hotfix/encrypted_lost
+
 # Encrypted_lost
+Hotfix/encrypted_lost
 
 Fonction pour chiffrée le texte manquant (resolu)
 
-Hotfix/option_lost
+
 # Options_lost
+Hotfix/option_lost
 
 Les 2 optioons pour chiffrer et dechiffrer manquante (resolu)
 
