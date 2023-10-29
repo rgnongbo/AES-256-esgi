@@ -7,6 +7,8 @@ from hashlib import *
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 
+############ Ajout de cette fonction 'encrypt' qui enleve le bug ####################
+
 def encrypt(cle, txt):
     sel = os.urandom(16)
     cles = os.urandom(32)
@@ -16,6 +18,8 @@ def encrypt(cle, txt):
     crypt_bytes = cipher.encrypt(pad(txt.encode(), AES.block_size))
     encrypted_text = b64encode(crypt_bytes).decode('utf-8')
     return encrypted_text, key.hex(), iv.hex()
+
+#################################################################################### 
 
 def decrypt(key, encrypted_text, iv):
     cipher = AES.new(key, AES.MODE_GCM, iv)

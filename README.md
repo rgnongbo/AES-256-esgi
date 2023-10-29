@@ -1,3 +1,3 @@
-# Automatisation AES-256 bits
+# Encrypted_lost
 
-Ce script chiffre un texte avec une cle de chiffement avec AES-256 bits, ainsi que 2 option a choisir pour chiffrer et dechiffrer le texte
+Fonction pour chiffrée le texte manquant (resolu)
