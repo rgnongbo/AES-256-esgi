@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+################## Ajout des librairie qui nuisais au lancement du script ##################
+
 import os
 from base64 import *
 import time
@@ -7,7 +9,10 @@ from hashlib import *
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 
+Hotfix/librairie_error
+
 ############ Ajout de cette fonction 'encrypt' qui enleve le bug ####################
+MASTER
 
 def encrypt(cle, txt):
     sel = os.urandom(16)
