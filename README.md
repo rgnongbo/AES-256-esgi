@@ -1,3 +1,3 @@
-# Brache de dev
+# Branche de dev
 
-Le script est en phase de developement
+Cette branche est en dev pour le script
