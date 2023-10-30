@@ -52,9 +52,3 @@ while True:
         print("Option non valide. Veuillez réessayer.")
     
     time.sleep(1)
-    
-    
-    
-    
-    
-    
