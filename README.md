@@ -1,9 +1,3 @@
-Develop
-# Branche de dev
-
-Cette branche est en dev pour le script
-=======
-
 # Librairie_error
 Hotfix/librairie_error
 
@@ -21,4 +15,3 @@ Hotfix/option_lost
 
 Les 2 optioons pour chiffrer et dechiffrer manquante (resolu)
 
-MASTER
