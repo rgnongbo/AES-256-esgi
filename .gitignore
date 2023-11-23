@@ -1,0 +1,35 @@
+# Source compilée #
+###################
+*.com
+*.classe
+*.dll
+*.exe
+*.o
+*.donc
+
+# Paquets #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.pot
+*.rar
+*.le goudron
+*.fermeture éclair
+
+# Journaux et bases de données #
+######################
+*.enregistrer
+*.sql
+*.sqlite
+
+# Fichiers générés par le système d'exploitation #
+######################
+.DS_Store
+.DS_Store ?
+._*
+.Spotlight-V100
+.Corbeilles
+ehthumbs.db
+Thumbs.db
