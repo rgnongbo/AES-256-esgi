@@ -1,3 +1,3 @@
-# encrypt_2
+# decrypt_4
 
-Ajout d'une fonction dpour decrypter le texte
+Ajout de la focntion encrypt
