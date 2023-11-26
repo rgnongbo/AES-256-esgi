@@ -2,4 +2,3 @@
 
 Ajout de la focntion encrypt
 
-
