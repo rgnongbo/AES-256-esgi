@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 ###################################### Ajout de la fonction encrypt ############################################## 
 
 def encrypt(cle, txt):
