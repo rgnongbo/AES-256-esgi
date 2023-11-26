@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+
 ###################################### Ajout de la fonction decrypt ############################################## 
 
 def decrypt(key, encrypted_text, iv):
@@ -9,7 +10,7 @@ def decrypt(key, encrypted_text, iv):
     decrypted_text = unpad(decrypted_bytes, AES.block_size).decode('utf-8')
     return decrypted_text
 
+################################################################################################################# 
 
-#################################################################################################################
 
 

@@ -1,5 +1,4 @@
-# decrypt_5
+# decrypt_2
 
-Ajout de la fonction decrypt
-
+Ajout de la focntion encrypt
 
