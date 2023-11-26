@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-############ Ajout de l'option decrypt ####################
+
+###################################### Ajout de la fonction decrypt ############################################## 
 
 def decrypt(key, encrypted_text, iv):
     cipher = AES.new(key, AES.MODE_GCM, iv)
@@ -9,6 +10,7 @@ def decrypt(key, encrypted_text, iv):
     decrypted_text = unpad(decrypted_bytes, AES.block_size).decode('utf-8')
     return decrypted_text
 
-#################################################################################### 
+################################################################################################################# 
+
 
 
